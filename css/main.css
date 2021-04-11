@@ -1,0 +1,222 @@
+@charset "UTF-8";
+/* CSS Document */
+
+p {
+	color: #000;
+	line-height: 50px;
+	text-align: left;
+	margin: 0;
+}
+
+article {
+	font-size: 20px;
+	color: #000;
+	line-height:40px;
+
+}
+h2 {
+	text-align: left;
+	color: #000;
+	font-size: 48px;
+	font-weight: normal; 
+}
+
+h4 {
+	color: #000;
+	font-size: 24px;
+	text-align: center;
+	font-weight: normal;
+}	
+
+body 
+{
+	font-family: Arial, Helvetica,  sans-serif;
+}
+
+.hidden
+{
+	display: none;
+}
+
+#topBar
+{
+	background-color: #fff;
+	height: 20px;
+}
+
+
+#siteContainer 
+{
+	margin: 0 auto;
+	width: 960px;
+	padding-right: 20px, 20px, 20px, 20px;
+}
+
+/*This is a flex container*/
+#mainHeader
+{
+	margin-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+	border-bottom: solid 1px #DDD;
+}
+
+/*This is a flex item*/
+#logo
+{
+	width: 243px;
+}
+
+/*This is also a flex item*/
+/*We use margin left auto to send it all the way to the right*/
+#mainNav 
+{
+	margin-left: auto;
+	width: 150px;
+	height: 120px;
+	background-color: #dae0da;
+	word-spacing: 800%;
+}
+
+#promo 
+{
+	margin-top: 40px;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+}
+
+/*Get rid of this, here just to give different height to promo*/
+#promo p 
+{
+	line-height:40px;
+}
+
+#promoText 
+{
+	width: 450px;
+	height: 212px;
+	color: #000;
+
+}
+
+#promoImage 
+{
+	margin-left: auto;
+	width: 450px;
+	height: 275px;
+}
+
+.productInfo 
+{
+	width: 960px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-between;
+  	padding-bottom: 40px;
+	
+}
+.productDesc 
+{   
+	align-items: center;
+	width: 292px;
+	height: 383px;
+	background-color: #dae0da;
+	padding: 10px, 10px, 10px, 10px;
+}
+
+.productInfo p 
+{
+	line-height: 1px;
+	text-align: center;
+}
+
+
+
+#mainFooter 
+{
+	border-top: solid 1px #DDD;
+	padding-top: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+}
+
+#footerNav 
+{margin-right: auto;
+	width: 150px;
+	height: 120px;
+	background-color: #dae0da;
+	word-spacing: 800%;
+}
+
+#copyRight {
+	margin-right: 0 auto;
+	width: 250px;
+}
+
+#copyRight li {
+	align-items: right;
+}
+
+#copyRight p {
+	text-align: right;
+	margin-left: auto;
+}
+
+/*Plants*/
+
+.productImages 
+{
+	margin-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-between;
+  	background-color: #fff;
+}
+
+.productContainer 
+{
+	align-items: center;
+	width: 293px;
+	height: 330px;
+	background-color: #dae0da;
+	padding: 10px, 10px, 10px, 10px;
+	margin-top: 10px; 
+
+}
+
+.productContainer p
+{
+	line-height: 30px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/*Page 4*/
+
+.productDescLargeLeft 
+{
+	width: 410px;
+}
+
+.productDescLargeRight 
+{
+	width: 410px;
+}
+
